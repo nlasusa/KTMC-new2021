@@ -188,9 +188,7 @@ a:hover{
   width: 550px; 
   color: gray; 
   margin-top: 20px; 
-}
-
-section .search-name {
-  margin: auto; 
   font-family: 'Raleway';
+  font-size: 15px; 
+  letter-spacing: 2px; 
 }
