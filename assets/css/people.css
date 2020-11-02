@@ -163,3 +163,31 @@ a:hover{
   transition: all 0.4s ease-in-out;
 }
 
+
+
+
+
+
+
+
+.alpha-head {
+  text-align: center; 
+  font-size: 18px; 
+  margin-top: 38px; 
+  margin-bottom: 40px; 
+  letter-spacing: 25px; 
+  color: black;
+  padding: 10px; 
+  background-color: rgb(124, 124, 124);
+  width: 100%;
+  text-decoration: none; 
+}
+
+.devsite-products-alphabet-link:hover {
+  text-decoration: none; 
+  color:  rgb(151, 184, 19); 
+  cursor: pointer; 
+}
+
+
+
