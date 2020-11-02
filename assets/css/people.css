@@ -35,7 +35,7 @@ h6 {
   text-transform: none;
   color: black;
   font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
   line-height: 1.5;
 }
@@ -96,6 +96,7 @@ a:hover{
 .team-member h4 {
   margin: 10px 0 0;
   padding: 0;
+  font-size: 21.5px;
 }
 
 .team-member figcaption {
@@ -121,6 +122,7 @@ a:hover{
   color: black;
   background: white;
   opacity: 0.95;
+  cursor: pointer; 
   /* Primary color, can be changed via colors.css */
   
   height: 100%;
@@ -177,7 +179,7 @@ a:hover{
 
 .devsite-products-alphabet-link:hover {
   text-decoration: none; 
-  color:  rgb(151, 184, 19); 
+  color: #0066c8;
   cursor: pointer; 
 }
 /* // end of alphabet people */
