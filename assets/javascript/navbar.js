@@ -116,3 +116,10 @@ $("#about-us-read").on('click', function(){
   window.location = "overview.html";    
 });
 // CORPORATE GOVERNANCE (UNDER PRACTICE AREAS) BUTTON NAVIGATION 
+
+
+// PEOPLE BUTTON NAVIGATION 
+$("#dropdown-people").on('click', function(){
+  window.location = "people.html";    
+});
+// PEOPLE BUTTON NAVIGATION 
