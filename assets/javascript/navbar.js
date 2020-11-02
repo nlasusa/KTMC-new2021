@@ -83,6 +83,13 @@ $("#dropdown-conferences").on('click', function(){
 // END OF CONFERENCES BUTTON NAVIGATION 
 
 
+// TRIAL EXPERIENCE BUTTON NAVIGATION 
+$("#dropdown-trialexperience").on('click', function(){
+  window.location = "trialexperience.html";    
+});
+// END OF TRIAL EXPERIENCE BUTTON NAVIGATION 
+
+
 // US SECURITIES (UNDER PRACTICE AREAS) BUTTON NAVIGATION 
 $("#dropdown-USsecurities").on('click', function(){
   window.location = "USsecurities.html";    
