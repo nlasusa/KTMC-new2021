@@ -71,7 +71,9 @@ a:hover{
 }
 
 .team-member figcaption p {
-  font-size: 16px;
+  font-size: 15px;
+  font-family: 'Raleway';
+  font-weight: 300px; 
 }
 
 .team-member figcaption ul {
@@ -193,4 +195,18 @@ a:hover{
   font-family: 'Raleway';
   font-size: 15px; 
   letter-spacing: 2px; 
+}
+
+#people-read {
+  color: black;
+  margin-top: 10px;  
+  background-color: rgb(140, 170, 20); 
+  width: 135px; 
+  text-align: center; 
+  padding: 10px; 
+}
+
+#people-read:hover {
+  background-color: rgb(123, 150, 18); 
+  cursor: pointer; 
 }
