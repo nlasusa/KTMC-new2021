@@ -149,6 +149,35 @@
   img {
     border-radius: 25px;
   }
+
+  .insights-text-section {
+    font-size: 25px; 
+    margin: auto; 
+    border: 1px solid black; 
+    padding: 50px; 
+    font-weight: 300;
+    font-family: 'Raleway';
+    letter-spacing: 2px; 
+  }
+ 
+  #row-1, #row-2, #row-3, #row-4, #row-5 {
+    margin-left: 5px; 
+  }
+
+  #row-1:hover, #row-2:hover, #row-3:hover, #row-4:hover, #row-5:hover {
+    margin: 0 auto; 
+    cursor: pointer; 
+    color: #0178e7;
+  }
+
+  #download {
+    font-size: 20px;
+  }
+
+  .fa-download {
+    color: rgb(218, 214, 214); 
+  }
+
 /* //////// ****** /////////////////////////// */
 /* // END OF KTMC INSIGHTS LANDING PAGE */
   
