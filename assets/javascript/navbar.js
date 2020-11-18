@@ -123,3 +123,10 @@ $("#dropdown-people").on('click', function(){
   window.location = "people.html";    
 });
 // PEOPLE BUTTON NAVIGATION 
+
+
+// REPORT FRAUD BUTTON NAVIGATION 
+$("#dropdown-fraud").on('click', function(){
+  window.location = "fraud.html";    
+});
+// REPORT FRAUD BUTTON NAVIGATION 
