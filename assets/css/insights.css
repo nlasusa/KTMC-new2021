@@ -151,7 +151,7 @@
   }
 
   .insights-text-section {
-    font-size: 25px; 
+    font-size: 20px; 
     margin: auto; 
     border: 1px solid black; 
     padding: 50px; 
@@ -171,7 +171,7 @@
   }
 
   #download {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .fa-download {
@@ -197,7 +197,10 @@
     #wrapper {
       display: none;
     }
+    .insights-text-section {
+      font-size: 13px; 
   }
+}
   
   @media only screen and (max-width: 850px) {
     .insights-section {
@@ -211,6 +214,9 @@
     #wrapper {
       display: none;
     }
+    .insights-text-section {
+      font-size: 14px; 
+  }
   }
   /* // end of KTMC insights newsletter viewpoint queries */
   /* //////// ****** /////////////////////////// */
