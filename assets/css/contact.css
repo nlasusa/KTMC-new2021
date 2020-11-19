@@ -1,0 +1,103 @@
+.whiteglobe-sub { background-image: url("../images/whiteglobe.jpg"); height: 300px; background-repeat: no-repeat;}
+
+.contact-us-header {
+    font-family: 'Raleway'; 
+    font-size: 40px; 
+    font-weight: 300;
+    margin-bottom: -20px; 
+    margin-top: 10px; 
+    padding-top: 50px; 
+    text-align: center;
+    letter-spacing: .3rem;
+    color: black;
+  }
+  
+  .contact-us-section .container {
+      font-family: 'Raleway'; 
+      height: 100%;
+      /* margin-top: 20px;  */
+      padding: 60px; 
+      margin-bottom: -10px; 
+      color: black;
+      /* border: 1px solid rgb(133, 133, 133); */
+      /* background-color: rgb(243, 243, 243); */
+  }
+
+
+  
+form {
+    max-width: 900px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: black; 
+    padding: 60px; 
+  }
+  form input, form textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    /* -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; */
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'Raleway'; 
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    resize: none;
+  }
+  form input:focus, form textarea:focus {
+    -moz-box-shadow: 0 0px 2px #0066c8!important;
+    -webkit-box-shadow: 0 0px 2px #0066c8 !important;
+    box-shadow: 0 0px 2px #0066c8 !important;
+  }
+  form #input-submit {
+    color: white;
+    background: #0066c8;
+    cursor: pointer;
+    width: 40%; 
+    margin: 0 auto; 
+  }
+  form #input-submit:hover {
+    background:rgb(123, 150, 18); 
+  }
+  form textarea {
+    height: 200px;
+  }
+  
+  .half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+  }
+  
+  .right {
+    width: 50%;
+  }
+  
+  .left {
+    margin-right: 2%;
+  }
+  
+  @media (max-width: 480px) {
+    .half {
+      width: 100%;
+      float: none;
+      margin-bottom: 0;
+    }
+  }
+  /* Clearfix */
+  .cf:before,
+  .cf:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
+  }
+  
+  .cf:after {
+    clear: both;
+  }
+  

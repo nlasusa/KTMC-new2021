@@ -130,3 +130,10 @@ $("#dropdown-fraud").on('click', function(){
   window.location = "fraud.html";    
 });
 // REPORT FRAUD BUTTON NAVIGATION 
+
+
+// CONTACT US/GENERAL INQUIRY BUTTON NAVIGATION 
+$("#dropdown-contact").on('click', function(){
+  window.location = "contact.html";    
+});
+// CONTACT US/GENERAL INQUIRY BUTTON NAVIGATION 
