@@ -1,4 +1,4 @@
-.whiteglobe { background-image: url("../images/whiteglobe.jpg"); height: 500px; background-repeat: no-repeat;}
+.whiteglobe { background-image: url("../images/whiteglobe.jpg"); height: 580px; background-repeat: no-repeat;}
 
 /* // BEGINNING OF VIDEO */
 #video-bg {
@@ -29,4 +29,8 @@
       height: 330px;
       border-radius: 0px; 
       }
+      .whiteglobe {
+       display: none; 
+      }
+    }
 /* // END OF MEDIA QUERIES VIDEO */

@@ -13,6 +13,11 @@
     letter-spacing: 4px; 
 }
 
+#testimonials:hover {
+  cursor: pointer;
+  color:  #0371d8;
+}
+
 #box {
     position: absolute; 
     margin-top: -3px; 
@@ -28,7 +33,7 @@
 .fa-quote-left {
     z-index: 3; 
     margin-left: -55px; 
-    color: black;
+    color: rgb(211, 211, 211);
     margin-top: -40px;
     position: absolute; 
 }
@@ -49,8 +54,8 @@
     height: 230px; 
     width: 480px;
     padding:30px;
-    border: 1px solid rgb(140, 170, 20); 
-    background: rgb(140, 170, 20); 
+    border: 1px solid black;
+    background: black;
     z-index: 2; 
 }
 
@@ -58,14 +63,14 @@
 font-family: 'Raleway';
 font-size: 20px; 
 justify-content: left;
-color: black; 
+color: white;
 }
 
 #box2-speaker {
 font-family: 'Raleway';
 margin-top: -7px; 
 font-size: 14px; 
-color: rgb(255, 255, 255); 
+color: rgb(140, 170, 20); 
 text-align: right; 
 font-weight: bold; 
 }
@@ -74,7 +79,7 @@ font-weight: bold;
     font-family: 'Raleway';
     margin-top: 12px; 
     font-size: 14px; 
-    color:  rgb(2, 2, 2); 
+    color:  #0066c8;
     text-align: left;
     font-weight: bold; 
     }

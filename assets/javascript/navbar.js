@@ -2,6 +2,11 @@
 $("#dropdown-testimonials").on('click', function(){
     window.location = "testimonials.html";    
   });
+
+  $("#testimonials").on('click', function(){
+    window.location = "testimonials.html";    
+  });
+
 // END OF TESTIMONIALS DROPDOWN NAVIGATION 
 
 
@@ -50,6 +55,10 @@ $("#nav-news").on('click', function(){
 });
 
 $(".view-more-news").on('click', function(){
+  window.location = "news.html";    
+});
+
+$("#latest-headlines").on('click', function(){
   window.location = "news.html";    
 });
 // END OF NEWS BUTTON NAVIGATION 
