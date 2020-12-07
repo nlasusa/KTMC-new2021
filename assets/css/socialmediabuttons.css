@@ -106,6 +106,12 @@
 /* // END OF SOCIAL MEDIA BUTTONS */
 /* //////// ****** /////////////////////////// */
 
+@media only screen and (max-width: 750px) {
+#social {
+  padding-top: 250px; 
+}
+}
+
 
 
 
