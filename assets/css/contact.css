@@ -24,122 +24,32 @@
   }
 
 
-  
-form {
-    max-width: 610px;
-    text-align: center;
-    margin: 15px;
-    /* background-color: black;  */
-    padding: 60px; 
-  }
-  form input, form textarea {
-    border: 0;
-    outline: 0;
-    padding: 1em;
-    display: block;
-    width: 100%;
-    margin-top: 1em;
+  .contact-LP {
     font-family: 'Raleway'; 
-    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-    resize: none;
+    font-size: 32px; 
+    color: black;
+    font-weight: 370;
+    padding-top: 60px; 
+    margin-bottom: -70px;
+    letter-spacing: 2px; 
+    margin-left: 160px; 
   }
-  form input:focus, form textarea:focus {
-    -moz-box-shadow: 0 0px 2px #0066c8!important;
-    -webkit-box-shadow: 0 0px 2px #0066c8 !important;
-    box-shadow: 0 0px 2px #0066c8 !important;
-  }
-  form #input-submit {
-    color: white;
-    background: #0066c8;
-    cursor: pointer;
-    width: 40%; 
-    margin: 0 auto; 
-  }
-  form #input-submit:hover {
-    background:rgb(123, 150, 18); 
-  }
-  form textarea {
-    height: 200px;
-  }
-  
-  .half {
-    float: left;
-    width: 48%;
-    margin-bottom: 1em;
-  }
-  
-  .right {
-    width: 50%;
-  }
-  
-  .left {
-    margin-right: 2%;
-  }
-  
-  @media (max-width: 480px) {
-    .half {
-      width: 100%;
-      float: none;
-      margin-bottom: 0;
-    }
-  }
-  /* Clearfix */
-  .cf:before,
-  .cf:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
-  }
-  
-  .cf:after {
-    clear: both;
-  }
-  
 
-  .feedback-input {
-    color:black;
-    font-family: 'Raleway';
-    font-weight: 350;
-    font-size: 15px;
-    border-radius: 5px;
-    line-height: 13px;
-    background-color: none;
-    border-bottom:2px solid black;
-    transition: all 0.3s;
-    padding: 13px;
-    margin-bottom: 15px;
-    width:100%;
-    box-sizing: border-box;
-  }
-  
-  .feedback-input:focus { border:2px solid #0066c8; }
-  
-  textarea {
-    height: 150px;
-    line-height: 150%;
-    resize:vertical;
-  }
-  
-  [type="submit"] {
+  .contact-addresses {
+    font-size: 16px; 
     font-family: 'Raleway'; 
-    width: 30%;
-    background:rgb(123, 150, 18); 
-    border-radius:5px;
-    border:0;
-    cursor:pointer;
-    color:white;
-    font-size:20px;
-    padding-top:10px;
-    padding-bottom:10px;
-    transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
+    font-weight: 400;
+    padding-top: 100px; 
+    letter-spacing: 1px; 
+    margin-left: 160px; 
   }
-  
 
-iframe {
-  float: right; 
-}
+  .contact-email {
+    font-size: 16px; 
+    /* color: rgb(140, 170, 20); */
+    color:  #0371d8;
+    font-family: 'Raleway'; 
+    font-weight: 400;
+    letter-spacing: 1px; 
+    margin-left: 160px; 
+  }
