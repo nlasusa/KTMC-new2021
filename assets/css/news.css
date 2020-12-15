@@ -36,8 +36,8 @@
   }
   .container .row.smallest-version .col-md-4 .news-card-container {
     padding-top: 22px;
-    border: 1px solid rgb(241, 241, 241); 
-    background-color: rgb(241, 241, 241); 
+    border: 1px solid rgb(245, 245, 245); 
+    background-color: rgb(245, 245, 245); 
     /* background-image: url(../images/news.png); */
     padding: 25px 10px 12px 23px;
     border-top: 10.5px solid rgb(140, 170, 20);

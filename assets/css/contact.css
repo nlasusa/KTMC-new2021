@@ -53,3 +53,7 @@
     letter-spacing: 1px; 
     margin-left: 160px; 
   }
+
+  .contact-email:hover {
+    cursor: pointer; 
+  }
