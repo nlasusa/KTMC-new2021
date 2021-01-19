@@ -10,11 +10,12 @@
   font-weight: 300; 
   color: black;
   text-align: center; 
+  letter-spacing: 4px; 
 }
 
 #latest-headlines:hover {
   cursor: pointer;
-  color:   #0371d8;
+   color:  #6e6e6e;
 }
 
 
@@ -41,7 +42,7 @@
     /* background-image: url(../images/news.png); */
     padding: 25px 10px 12px 23px;
     border-top: 10.5px solid rgb(140, 170, 20);
-    height: 260px; 
+    height: 230px; 
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
   }
@@ -52,9 +53,10 @@
     cursor: pointer; 
   }
   .container .row.smallest-version .col-md-4 .news-card-container h2 {
-    font-size: 20px;
+    font-size: 17px;
     color: black;
-    font-weight: 900;
+    font-weight: 500;
+    letter-spacing: .5px; 
   }
   .container .row.smallest-version .col-md-4 .news-card-container p {
     font-size: 16px;

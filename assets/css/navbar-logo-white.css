@@ -25,7 +25,7 @@
     padding-bottom: 8px;
     padding-right: 50px; 
     position:absolute;
-    background-color: black;
+    background-color: white;
     top: 0px;
     width:100%;
     z-index:4;
@@ -41,13 +41,13 @@
     text-decoration: none;
     font-size: 15.5px; 
     padding:10px;
-    color: white;
+    color: black;
     font-family: 'Raleway';
     font-weight: thin; 
   }
   .navbar-right a:hover{
      background-color: rgb(151, 184, 19); 
-     color: rgb(49, 49, 49); 
+     color: black;
   }
   #practice-areas {
     word-spacing: 3px; 
@@ -83,7 +83,7 @@
   }
   ul li ul.dropdown{
     min-width: 175px; /* Set width of the dropdown */
-    background-color: black;
+    background-color: rgb(228, 228, 228);
     padding: 6px; 
     word-spacing: 0px; 
     display: none;
