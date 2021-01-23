@@ -148,6 +148,14 @@ $("#dropdown-contact").on('click', function(){
 // CONTACT US/GENERAL INQUIRY BUTTON NAVIGATION 
 
 
+// DROPDOWN - NEW CASES
+$("#dropdown-newcases").on('click', function(){
+  window.location = "newcases.html";    
+});
+// END OF DROPDOWN NEW CASES
+
+
+// SPLIT SECTION ON LANDING PAGE
 document.addEventListener('DOMContentLoaded', function() {
   var parent = document.querySelector('.splitview'),
       topPanel = parent.querySelector('.top'),
@@ -171,3 +179,4 @@ document.addEventListener('DOMContentLoaded', function() {
       topPanel.style.width = event.clientX + skewHack + delta + 'px';
   });
 });
+// END OF SPLIT SECTION ON LANDING PAGE 

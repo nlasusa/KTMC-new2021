@@ -12,7 +12,7 @@
     <!-- <link rel="stylesheet" href="assets/css/news-LP.css"> -->
     <link rel="stylesheet" href="assets/css/socialmediabuttons.css">
     <link rel="stylesheet" href="assets/css/navbar-logo-white.css">
-    <link rel="stylesheet" href="assets/css/corporategov.css">
+    <link rel="stylesheet" href="assets/css/newcases.css">
      <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
@@ -33,7 +33,7 @@
 
 <body>
 
-<!-- /////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////// -->
 <!-- // BEGINNING OF NAV BAR & HEADER (WHITE BACKGROUND)-->
 <div class="header-wrapper">
     <header>
@@ -61,7 +61,7 @@
               <li><a href="#" id="dropdown-people">PEOPLE</a>
               </li>
 
-            <li><a href="#" id=practice-areas>PRACTICE AREAS</a>
+           <li><a href="#" id=practice-areas>PRACTICE AREAS</a>
               <ul class="dropdown">
                 <li><a href="#" id="dropdown-USsecurities">Securities Class Actions</a></li>
                 <li><a href="#" id="dropdown-globalsecurities">Global Shareholder Litigation</a></li>
@@ -76,9 +76,9 @@
             <li><a href="#">CASES</a>
               <ul class="dropdown">
                 <li><a href="#" id="dropdown-newcases">New Cases</a></li>
-                  <li><a href="#">Current Cases</a></li>
-                  <li><a href="#">Settled Cases</a></li>
-                  <li><a href="#">Landmark Results</a></li>
+                <li><a href="#">Current Cases</a></li>
+                <li><a href="#">Settled Cases</a></li>
+                <li><a href="#">Landmark Results</a></li>
                 </ul>
             </li>
 
@@ -114,42 +114,72 @@
 <!-- // END OF NAV BAR & HEADER (WHITE BACKGROUND)-->
 <!-- /////////////////////////////////////////// -->
 
-<br><br><br>
-<!-- <div class="bg-image whiteglobe-sub"></div> -->
+<br>
+<div class="bg-image whiteglobe-sub"></div>
 
-<!-- /////////////////////////////////////////// -->
-<!-- BEGINNING OF CORPORATE GOV SECTION -->
- <div id="project">
-	<!-- actual content -->
-	
-	<div class="overlapping-feature__container">
-		<div class="overlapping-feature">
 
-			<div class="overlapping-feature__image overlapping-feature--left" data-aos="fade-right">
-				<!-- set the image in the page CSS -->
-			</div>
 
-			<div class="overlapping-feature__content overlapping-feature--right overlapping-feature--center"data-aos="fade-left">
-				<div class="overlapping-feature--center">
-          <div class="practice-area">PRACTICE AREA</div>
-          <div class="associated-cases">ASSOCIATED CASES</div>
-					<h2>CORPORATE GOVERNANCE</h2>
-					<p>Corporate governance doesn’t just happen in boardrooms. It affects every aspect of a business, every day. When you want to make a tangible impact on how a company is run, corporate governance is the place to start.</p>
-					<p>Kessler Topaz gives shareholders a voice in corporate governance. As one of the leading U.S. firms representing shareholders in securities class actions and shareholder derivative actions, we have deep experience using the courts to achieve governance reform. We also employ direct action such as bylaw amendments, director nominations, and other means to influence board composition and functioning. We work closely with corporate governance experts, organized labor, and other shareholder advocates to promote public policies that compel or encourage corporations to adopt shareholder-friendly corporate governance measures.<br><br></p>
+    <section>
+        <!--for demo wrap-->
+        <div class="new-cases-header">NEW CASES</div><br>
+        <div class="tbl-header">
+          <table cellpadding="0" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Company</th>
+                <th>Exhange</th>
+                <th>Ticker</th>
+                <th>Days left to seek lead plaintiff</th>
+                <th>INFO</th>
+              </tr>
+            </thead>
+          </table>
         </div>
-			</div>
+        <div class="tbl-content">
+          <table cellpadding="0" cellspacing="0">
+            <tbody>
+              <tr>
+                <td>GoodRx Holdings, Inc.</td>
+                <td>??</td>
+                <td>??</td>
+                <td>24</td>
+                <td style="color: rgb(187, 90, 0); "><a>Learn More</a></td>
+              </tr>
+              <tr>
+                <td>Penumbra, Inc. (2021)</td>
+                <td>??</td>
+                <td>??</td>
+                <td>52</td>
+                <td style="color: rgb(187, 90, 0);">Learn More</td>
+              </tr>
+              <tr>
+                <td>QuantumScape Corporation f/k/a Kensington<br> Capital Acquisition Corp.</td>
+                <td>??</td>
+                <td>??</td>
+                <td>44</td>
+                <td style="color: rgb(187, 90, 0); ">Learn More</td>
+              </tr>
+              <tr>
+                <td>Restaurant Brands International Inc.</td>
+                <td>??</td>
+                <td>??</td>
+                <td>27</td>
+                <td style="color: rgb(187, 90, 0); ">Learn More</td>
+              </tr>
+              <tr>
+                <td>Splunk Inc.</td>
+                <td>??</td>
+                <td>??</td>
+                <td>10</td>
+                <td style="color: rgb(187, 90, 0); ">Learn More</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      
 
-		</div>
-	</div>
-	
-	<!-- End of content -->
-</div>
-<!-- END OF CORPORATE GOV SECTION  -->
-<!-- /////////////////////////////////////////// -->
-
-
-<br><br><br><br>
-<!-- /////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////// -->
 <!-- BEGINNING OF SOCIAL MEDIA BUTTONS -->
 <div id="social">
     <a class="facebookBtn smGlobalBtn" href="#"></a>
@@ -160,10 +190,11 @@
 <!-- END OF SOCIAL MEDIA BUTTONS -->
 <!-- /////////////////////////////////////////// -->
 
-
+    
  <!-- // JS -->
  <script src="assets/javascript/awards.js"></script>
  <script src="assets/javascript/navbar.js"></script>
+ <script src="assets/javascript/insights.js"></script>
  <script src="assets/javascript/FAQs.js"></script>
  <script src="assets/javascript/socialmedia.js"></script>
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
