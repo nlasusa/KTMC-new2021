@@ -13,12 +13,12 @@
       cursor: pointer;
       width: 50px;
       height: 50px;
-      border:2px solid rgb(0, 0, 0); /* add border to the buttons */
+      border:1px solid rgb(233, 233, 233); 
       padding: 0px;
       text-decoration: none;
       text-align: center;
       color: #fff;
-      background-color: black;
+      background-color: white;
       font-size: 25px;
       font-weight: normal;
       line-height: 2em;
@@ -29,14 +29,14 @@
 
   .smGlobalBtn:hover {
     color: rgb(20, 20, 20);
-    background: white; 
     border-color: rgb(142, 177, 37);  /* change the border color on mouse hover */
+    text-decoration: none; 
   }
   
   /* facebook button class*/
   .facebookBtn{
-    background:black;
-    color: white;
+    background: white;
+    color: #0379e7;
   }
   
   .facebookBtn:before{ /* use :before to add the relevant icons */
@@ -52,7 +52,7 @@
   
   /* twitter button class*/
   .twitterBtn{
-    background:black;
+    background: white;
     color: #0379e7;
   }
   
@@ -86,8 +86,8 @@
   
   /* linkedin button class*/
   .linkedinBtn{
-    background:black;
-    color: white;
+    background: white;
+    color: #0379e7;
   }
   
   .linkedinBtn:before{
