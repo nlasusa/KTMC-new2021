@@ -154,11 +154,19 @@ $("#dropdown-newcases").on('click', function(){
 });
 // END OF DROPDOWN NEW CASES
 
-// DROPDOWN - NEW CASES
+// PDF AND LEARN MORE BUTTONS ON CASE LISTS 
 $(".description p").on('click', function(){
   window.location = "newcases.html";    
 });
-// END OF DROPDOWN NEW CASES
+// END OF PDF AND LEARN MORE BUTTONS ON CASE LISTS 
+
+
+// DROPDOWN - SETTLED CASES
+$("#dropdown-settledcases").on('click', function(){
+  window.location = "settledcases.html";    
+});
+// END OF DROPDOWNS SETTLED CASES
+
 
 
 // SPLIT SECTION ON LANDING PAGE
