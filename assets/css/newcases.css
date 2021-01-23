@@ -61,6 +61,16 @@ a:hover {
   section{
     margin: 50px;
   }
+
+  @media only screen and (max-width: 730px) {
+    .new-cases-header {
+    font-size: 20px;
+    margin-top: -220px;
+    }
+
+    th, td {
+      font-size: 11.5px; 
+    }
   
 
   
