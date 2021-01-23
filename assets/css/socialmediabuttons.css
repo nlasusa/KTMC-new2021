@@ -13,12 +13,12 @@
       cursor: pointer;
       width: 50px;
       height: 50px;
-      border:2px solid #ddd; /* add border to the buttons */
+      border:2px solid rgb(0, 0, 0); /* add border to the buttons */
       padding: 0px;
       text-decoration: none;
       text-align: center;
       color: #fff;
-      background-color: white;
+      background-color: black;
       font-size: 25px;
       font-weight: normal;
       line-height: 2em;
@@ -35,8 +35,8 @@
   
   /* facebook button class*/
   .facebookBtn{
-    background: white;
-    color: #0379e7;
+    background:black;
+    color: white;
   }
   
   .facebookBtn:before{ /* use :before to add the relevant icons */
@@ -52,7 +52,7 @@
   
   /* twitter button class*/
   .twitterBtn{
-    background: white;
+    background:black;
     color: #0379e7;
   }
   
@@ -86,8 +86,8 @@
   
   /* linkedin button class*/
   .linkedinBtn{
-    background: white;
-    color: #0379e7;
+    background:black;
+    color: white;
   }
   
   .linkedinBtn:before{
