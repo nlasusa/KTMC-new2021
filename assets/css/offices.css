@@ -8,7 +8,7 @@
     margin-top: 160px; 
     padding-top: 50px; 
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .7rem;
     color: black;
   }
 
@@ -47,6 +47,9 @@
     margin: 0;
     padding-bottom: 8px; 
     color: #0066c8;
+    letter-spacing: 1px; 
+    font-family: 'Playfair Display', serif;
+    font-weight: 450;
   }
   
   ul, nav{

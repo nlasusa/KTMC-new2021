@@ -74,7 +74,7 @@ margin-right: auto;
     margin-top: 10px; 
     padding-top: 50px; 
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .7rem;
     color: black;
 }
 
@@ -90,15 +90,16 @@ margin-right: auto;
 
 .recognition-type {
   color: #0066c8;
-  font-weight: bold; 
-  padding-bottom: 10px;
+  letter-spacing: .1em; 
+  font-weight: 500; 
+  padding-bottom: 15px;
   font-size: 20px; 
 }
 
 .recognition-text {
   font-size: 16px;
   color: black; 
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* // END OF AWARDS & ACHIEVEMENTS STANDALONE LANDING PAGE */

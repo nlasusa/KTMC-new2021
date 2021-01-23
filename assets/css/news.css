@@ -134,12 +134,12 @@
   .featured-header {
     font-family: 'Raleway'; 
     font-size: 40px; 
-    font-weight: 300;
+    font-weight: 290;
     margin-bottom: 60px; 
     margin-top: 5px;
     padding-top: 50px; 
     text-align: center;
-    letter-spacing: .3rem;
+    letter-spacing: .7rem;
     color: black;
   }
   .container .row.regular-version {
