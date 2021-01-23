@@ -33,7 +33,8 @@
 
 #about-us-read:hover {
   cursor: pointer;
-  color: rgb(138, 171, 37); 
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 .about-us article h2 {
   margin: 0;

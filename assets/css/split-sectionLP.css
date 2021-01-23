@@ -35,6 +35,12 @@
       margin: auto; 
   }
 
+.description p:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
 .description h1 {
     font-family: 'Raleway';
     font-weight: 300; 
