@@ -3,19 +3,19 @@
 #testimonials {
     margin-top: 1%; 
     margin-left: 1%;
-    font-size: 40px; 
+    font-size: 37px; 
     font-family: 'Raleway';
     font-weight: 300; 
     z-index: 2; 
     color: black;
     position: relative;
     margin-bottom: 18px; 
-    letter-spacing: 4px; 
+    letter-spacing: 2px; 
 }
 
 #testimonials:hover {
   cursor: pointer;
-  color:  #6e6e6e;
+  /* color:  #6e6e6e; */
 }
 
 #box {
@@ -129,7 +129,7 @@ font-weight: 400;
     }
 
     #box2-text {
-    font-size: 17px; 
+    font-size: 15px; 
     }
 
     #box3 {
@@ -144,6 +144,10 @@ font-weight: 400;
         position: absolute;
         margin-top: -40px;
         margin-left: 300px;
+    }
+
+    #box3-text {
+      font-size: 15px; 
     }
 }
 

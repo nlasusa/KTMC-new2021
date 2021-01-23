@@ -18,7 +18,7 @@
       text-decoration: none;
       text-align: center;
       color: #fff;
-      background-color: black; 
+      background-color: white;
       font-size: 25px;
       font-weight: normal;
       line-height: 2em;
@@ -35,7 +35,8 @@
   
   /* facebook button class*/
   .facebookBtn{
-      background: black;
+    background: white;
+    color: #0379e7;
   }
   
   .facebookBtn:before{ /* use :before to add the relevant icons */
@@ -51,7 +52,8 @@
   
   /* twitter button class*/
   .twitterBtn{
-    background: black;
+    background: white;
+    color: #0379e7;
   }
   
   .twitterBtn:before{
@@ -84,7 +86,8 @@
   
   /* linkedin button class*/
   .linkedinBtn{
-      background: black;
+    background: white;
+    color: #0379e7;
   }
   
   .linkedinBtn:before{
@@ -111,7 +114,6 @@
   padding-top: 250px; 
 }
 }
-
 
 
 
