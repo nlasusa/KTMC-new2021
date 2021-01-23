@@ -106,6 +106,31 @@
     color: black;
     padding-top: 15px; 
   }
+
+  #offices1 {
+    font-size: 10px;
+    color: black;
+  }
+
+  #offices1:hover {
+    cursor: pointer; 
+    color: rgb(142, 177, 37);  
+  }
+
+
+  #offices2 {
+    font-size: 10px;
+    color: black;
+  }
+
+  #offices2:hover {
+    cursor: pointer; 
+    color: rgb(142, 177, 37);  
+  }
+  
+
+
+  
 /* // END OF SOCIAL MEDIA BUTTONS */
 /* //////// ****** /////////////////////////// */
 
