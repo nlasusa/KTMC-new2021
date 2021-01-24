@@ -1,7 +1,7 @@
 /* //////// ****** /////////////////////////// */
 /* // BEGINNING OF TESTIMONIALS SECTION ON MAIN LANDING PAGE  */
 #testimonials {
-    margin-top: 1%; 
+    margin-top: -1%; 
     margin-left: 1%;
     font-size: 37px; 
     font-family: 'Raleway';
@@ -264,12 +264,12 @@ font-weight: 400;
   }
   .testimonials h5 {
     margin-top: 0;
-    font-size: 52px;
+    font-size: 45px;
     line-height: 50px;
     font-weight: 350;
     color: black;
     font-family: 'Raleway';
-    letter-spacing: 1px;
+    letter-spacing: 7px;
     background-color: white;
     text-align: left;
     padding-left: 30px;
