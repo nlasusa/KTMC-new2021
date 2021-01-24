@@ -187,6 +187,15 @@ $("#dropdown-landmark").on('click', function(){
 // END OF DROPDOWNS LANDMARK CASES
 
 
+// DROPDOWN - VIDEOS
+$("#dropdown-videos").on('click', function(){
+  window.location = "videosLP.html";    
+});
+// END OF DROPDOWN VIDEOS
+
+
+
+
 
 // SPLIT SECTION ON LANDING PAGE
 // document.addEventListener('DOMContentLoaded', function() {
