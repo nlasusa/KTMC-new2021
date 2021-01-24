@@ -161,6 +161,18 @@ $(".description p").on('click', function(){
 // END OF PDF AND LEARN MORE BUTTONS ON CASE LISTS 
 
 
+// NEW CASES CHART TO NEW CASES DESCRIPTION PAGE
+$("#GoodRX").on('click', function(){
+  window.location = "newcases-about.html";    
+});
+// END OF NEW CASES CHART TO NEW CASES DESCRIPTION PAGE 
+
+// NEW CASES CHART TO NEW CASES DESCRIPTION PAGE
+$("#GoodRX1").on('click', function(){
+  window.location = "newcases-about.html";    
+});
+// END OF NEW CASES CHART TO NEW CASES DESCRIPTION PAGE 
+
 // DROPDOWN - SETTLED CASES
 $("#dropdown-settledcases").on('click', function(){
   window.location = "settledcases.html";    

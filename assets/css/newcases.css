@@ -53,6 +53,10 @@ a:hover {
     border-bottom: solid 2px rgba(14, 13, 13, 0.1)
   }
 
+  #GoodRX:hover {
+    cursor: pointer; 
+}
+
 
   
   /* demo styles */
