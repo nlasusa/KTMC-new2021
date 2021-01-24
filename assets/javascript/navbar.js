@@ -154,11 +154,18 @@ $("#dropdown-newcases").on('click', function(){
 });
 // END OF DROPDOWN NEW CASES
 
-// PDF AND LEARN MORE BUTTONS ON CASE LISTS 
-$(".description p").on('click', function(){
+// LP SETTLED CASES SPLIT SECTION 
+$("#settlement-notice").on('click', function(){
+  window.location = "settledcases.html";    
+});
+// END OF LP SETTLED CASES SPLIT SECTION
+
+
+// LP NEW CASES SPLIT SECTION 
+$("#new-case-notice").on('click', function(){
   window.location = "newcases.html";    
 });
-// END OF PDF AND LEARN MORE BUTTONS ON CASE LISTS 
+// END OF LP NEW CASES SPLIT SECTION
 
 
 // NEW CASES CHART TO NEW CASES DESCRIPTION PAGE
@@ -167,11 +174,13 @@ $("#GoodRX").on('click', function(){
 });
 // END OF NEW CASES CHART TO NEW CASES DESCRIPTION PAGE 
 
+
 // NEW CASES CHART TO NEW CASES DESCRIPTION PAGE
 $("#GoodRX1").on('click', function(){
   window.location = "newcases-about.html";    
 });
 // END OF NEW CASES CHART TO NEW CASES DESCRIPTION PAGE 
+
 
 // DROPDOWN - SETTLED CASES
 $("#dropdown-settledcases").on('click', function(){
