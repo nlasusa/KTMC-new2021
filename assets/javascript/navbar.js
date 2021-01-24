@@ -168,6 +168,13 @@ $("#dropdown-settledcases").on('click', function(){
 // END OF DROPDOWNS SETTLED CASES
 
 
+// DROPDOWN - LANDMARK CASES
+$("#dropdown-landmark").on('click', function(){
+  window.location = "landmarkresults.html";    
+});
+// END OF DROPDOWNS LANDMARK CASES
+
+
 
 // SPLIT SECTION ON LANDING PAGE
 // document.addEventListener('DOMContentLoaded', function() {
