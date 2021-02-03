@@ -16,8 +16,9 @@
       padding: 0px;
       text-decoration: none;
       text-align: center;
+      margin-bottom: -30px;
       color: #fff;
-      background-color: white;
+      background-color: none;
       font-size: 25px;
       font-weight: normal;
       line-height: 2em;
@@ -34,8 +35,7 @@
   
   /* facebook button class*/
   .facebookBtn{
-    background: white;
-    color: #0379e7;
+    color: rgb(3, 105, 207);
   }
   
   .facebookBtn:before{ /* use :before to add the relevant icons */
@@ -44,14 +44,12 @@
   }
   
   .facebookBtn:hover{
-    color: #056dcf;
-      background: white; 
+    color: rgb(4, 92, 180);
   }
   
   /* twitter button class*/
   .twitterBtn{
-    background: white;
-    color: #0379e7;
+    color: rgb(3, 105, 207);
   }
   
   .twitterBtn:before{
@@ -61,8 +59,7 @@
   }
   
   .twitterBtn:hover{
-    color: #056dcf;
-    background: white; 
+    color: rgb(4, 92, 180);
   }
   
   /* google plus button class*/
@@ -77,13 +74,20 @@
   
   .googleplusBtn:hover{
     color: #056dcf;
-      background: white; 
+  }
+
+  .fa-instagram {
+    color: rgb(3, 105, 207);
+    font-size: 22px; 
+  }
+
+  .fa-instagram:hover{
+    color: rgb(4, 92, 180);
   }
   
   /* linkedin button class*/
   .linkedinBtn{
-    background: white;
-    color: #0379e7;
+    color: rgb(3, 105, 207);
   }
   
   .linkedinBtn:before{
@@ -92,8 +96,7 @@
   }
   
   .linkedinBtn:hover{
-    color: #056dcf;
-    background: white; 
+    color: rgb(4, 92, 180);
   }
   
   #allRights {
