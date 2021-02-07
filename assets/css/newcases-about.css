@@ -18,6 +18,11 @@
     margin-top: 50px; 
 }
 
+.newcases-complaint:hover {
+    cursor: pointer; 
+    color: rgb(255, 123, 0);
+}
+
 .newcases-submit-info {
     font-size: 18px;
     padding: 10px; 
