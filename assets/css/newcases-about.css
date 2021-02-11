@@ -27,12 +27,34 @@
     font-size: 18px;
     padding: 10px; 
     margin-top: 30px; 
-    background: rgb(151, 184, 19); 
+    background: rgb(140, 170, 20); 
     /* border: 1px solid black; */
     font-family: 'Raleway';
     text-align: center;
     width: 350px;
     float: left; 
+}
+
+.newcases-submit-info:hover {
+    cursor: pointer; 
+    background: rgb(151, 184, 19); 
+}
+
+.currentcases-submit-info {
+    font-size: 18px;
+    padding: 10px; 
+    margin-top: 30px; 
+    background: rgb(140, 170, 20); 
+    /* border: 1px solid black; */
+    font-family: 'Raleway';
+    text-align: center;
+    width: 200px;
+    float: left; 
+}
+
+.currentcases-submit-info:hover {
+    cursor: pointer; 
+    background: rgb(151, 184, 19); 
 }
 
 .newcases-description {

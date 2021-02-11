@@ -181,6 +181,13 @@ $("#GoodRX1").on('click', function(){
 });
 // END OF NEW CASES CHART TO NEW CASES DESCRIPTION PAGE 
 
+// CURRENT CASES CHART TO CURRENT CASES DESCRIPTION PAGE
+$("#GoodRX2").on('click', function(){
+  window.location = "casesignup.html";    
+});
+// END OF CURRENT CASES CHART TO CURRENT CASES DESCRIPTION PAGE 
+
+
 
 // DROPDOWN - SETTLED CASES
 $("#dropdown-settledcases").on('click', function(){
