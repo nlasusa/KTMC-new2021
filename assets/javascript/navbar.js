@@ -195,6 +195,12 @@ $("#dropdown-landmark").on('click', function(){
 });
 // END OF DROPDOWNS LANDMARK CASES
 
+// DROPDOWN - CURRENT CASES
+$("#dropdown-currentcases").on('click', function(){
+  window.location = "currentcases.html";    
+});
+// END OF DROPDOWNS CURRENT CASES
+
 
 // DROPDOWN - VIDEOS
 $("#dropdown-videos").on('click', function(){
