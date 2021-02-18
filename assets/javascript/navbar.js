@@ -215,6 +215,12 @@ $("#dropdown-videos").on('click', function(){
 });
 // END OF DROPDOWN VIDEOS
 
+// DROPDOWN - DATA SECURITY
+$("#dropdown-security").on('click', function(){
+  window.location = "datasecurity.html";    
+});
+// END OF DROPDOWN DATA SECURITY
+
 
 
 
