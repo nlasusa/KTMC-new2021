@@ -221,6 +221,14 @@ $("#dropdown-security").on('click', function(){
 });
 // END OF DROPDOWN DATA SECURITY
 
+// DROPDOWN - DIVERSITY 
+$("#dropdown-diversity").on('click', function(){
+  window.location = "diversityinclusion.html";    
+});
+// END OF DROPDOWN DIVERSITY
+
+
+
 
 
 
