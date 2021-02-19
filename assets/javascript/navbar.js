@@ -228,7 +228,26 @@ $("#dropdown-diversity").on('click', function(){
 // END OF DROPDOWN DIVERSITY
 
 
+// IN NEWS AND WHO WE ARE ARROW
+$(".arrows").on('click', function(){
+  $(".about-us").hide(); 
+});
 
+$(".arrows").on('click', function(){
+  $(".latest-headlines").show(); 
+});
+
+$(".next").on('click', function(){
+  $(".next").hide(); 
+  $(".next2").show(); 
+});
+
+$(".next2").on('click', function(){
+  $(".about-us").show(); 
+  $(".latest-headlines").hide(); 
+  $(".next").show(); 
+  $(".next2").hide(); 
+});
 
 
 

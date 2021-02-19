@@ -1,0 +1,45 @@
+
+.arrows {
+    width: 35px;
+    height: 35px;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    top: 142%;
+    margin-top: -31px;
+  }
+  
+  .prev {
+    border-bottom: 6px solid;
+    margin-left: 50px;
+    border-left: 6px solid;
+    transform: rotate(45deg);
+    left: 10px;
+  }
+  
+  .next {
+    margin-right: 50px; 
+    border-bottom: 6px solid;
+    border-left: 6px solid;
+    transform: rotate(-135deg);
+    right: 10px;
+  }
+
+  .next2 {
+    margin-right: 50px; 
+    border-bottom: 6px solid;
+    border-left: 6px solid;
+    transform: rotate(-135deg);
+    right: 10px;
+  }
+
+  .arrows:hover {
+      cursor: pointer; 
+  }
+
+  .latest-headlines {
+      display: none; 
+  }
+
+  .next2 {
+      display: none; 
+  }
