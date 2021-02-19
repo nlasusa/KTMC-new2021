@@ -56,7 +56,17 @@
   @media only screen and (max-width: 1000px) {
     .arrows {
       position: absolute;
-      top: 110%;
+      top: 100%;
       margin-top: -31px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .arrows {
+      position: absolute;
+      top: 55%;
+      margin-top: -31px;
+      width: 22px;
+      height: 22px;
     }
   }
