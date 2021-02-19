@@ -41,7 +41,7 @@
     background-color: rgb(245, 245, 245); 
     /* background-image: url(../images/news.png); */
     padding: 25px 10px 12px 23px;
-    border-top: 11px solid rgb(223, 223, 223);
+    border-top: 11px solid black;
     height: 230px; 
     -webkit-transition: 0.3s all;
     transition: 0.3s all;

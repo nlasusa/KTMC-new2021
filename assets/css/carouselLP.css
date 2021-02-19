@@ -43,3 +43,20 @@
   .next2 {
       display: none; 
   }
+
+
+  @media only screen and (max-width: 1400px) {
+    .arrows {
+      position: absolute;
+      top: 130%;
+      margin-top: -31px;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .arrows {
+      position: absolute;
+      top: 110%;
+      margin-top: -31px;
+    }
+  }
