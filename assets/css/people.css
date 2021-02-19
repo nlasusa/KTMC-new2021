@@ -67,11 +67,12 @@ a:hover{
 
 .team-member figure img {
   min-width: 100%;
-  width: 350px; 
+  width: 280px; 
+  height: 280px; 
 }
 
 .team-member figcaption p {
-  font-size: 15px;
+  font-size: 14px;
   font-family: 'Raleway';
   font-weight: 300px; 
 }
@@ -98,7 +99,7 @@ a:hover{
 .team-member #people-name {
   margin: 10px 0 0;
   padding: 0;
-  font-size: 21.5px;
+  font-size: 18px;
 }
 
 #people-name:hover {
@@ -215,4 +216,17 @@ a:hover{
 #people-read:hover {
   background-color: rgb(123, 150, 18); 
   cursor: pointer; 
+}
+
+@media only screen and (max-width: 730px) {
+  .team-member figure img {
+    width: 100px; 
+    height: 360px; 
+  }
+
+  .search-name {
+    padding: 20px; 
+    width: 385px; 
+  }
+  
 }
