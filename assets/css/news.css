@@ -10,7 +10,7 @@
   font-weight: 300; 
   color: black;
   text-align: center;
-  letter-spacing: 2px; 
+  letter-spacing: 8px; 
 }
 
 #latest-headlines:hover {
@@ -41,7 +41,7 @@
     background-color: rgb(245, 245, 245); 
     /* background-image: url(../images/news.png); */
     padding: 25px 10px 12px 23px;
-    border-top: 11px solid black;
+    border-top: 11px solid rgb(211, 211, 211);
     height: 230px; 
     -webkit-transition: 0.3s all;
     transition: 0.3s all;
