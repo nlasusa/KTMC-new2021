@@ -1,4 +1,4 @@
-.people-LP-sub { background-color: rgb(233, 233, 233); height: 580px; background-repeat: no-repeat;}
+.people-LP-sub { background-color: rgb(34, 34, 34); height: 518px; background-repeat: no-repeat;}
 .people-LP-name {
     font-family: 'Raleway'; 
     font-size: 40px; 
@@ -9,7 +9,7 @@
     padding-top: 50px; 
     float: left; 
     letter-spacing: .4rem;
-    color: black;
+    color: white;
   }
 
   #people-img {
@@ -17,21 +17,35 @@
       margin-top: 160px;
   }
 
+
+
+  #side-text-practice u {
+      color: rgb(5, 106, 207);
+  }
+
+#side-text-education u {
+    color: rgb(5, 106, 207);
+}
+
+#side-text-admissions u {
+    color: rgb(5, 106, 207);
+}
+
   .people-LP-title {
       float: left; 
-      color: black; 
+      color: rgb(151, 184, 19); 
       font-size: 21px;
   }
 
   .people-LP-phone {
     float: left; 
-    color: black; 
+    color: white;
     font-size: 17px;
     letter-spacing: .14rem;
   }
 
   .people-LP-section {
-      color: black;
+    color: black;
       font-family: 'Raleway'; 
       margin-top: 60px; 
   }
