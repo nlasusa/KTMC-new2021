@@ -2,9 +2,9 @@
 /* // BEGINNING OF SOCIAL MEDIA BUTTONS */
 #social {
     text-align: center;
-    padding-top: 46px; 
+    padding-top: 35px; 
     padding-bottom: 35px; 
-    background-color: white;
+    background-color: rgb(245, 245, 245);;
   }
   
   .smGlobalBtn { /* global button class */
@@ -35,7 +35,7 @@
   
   /* facebook button class*/
   .facebookBtn{
-    color: rgb(3, 105, 207);
+    color: rgb(2, 113, 224);
   }
   
   .facebookBtn:before{ /* use :before to add the relevant icons */
@@ -49,7 +49,7 @@
   
   /* twitter button class*/
   .twitterBtn{
-    color: rgb(3, 105, 207);
+    color: rgb(2, 113, 224);
   }
   
   .twitterBtn:before{
@@ -77,7 +77,7 @@
   }
 
   .fa-instagram {
-    color: rgb(3, 105, 207);
+    color: rgb(2, 113, 224);
     font-size: 22px; 
   }
 
@@ -87,7 +87,7 @@
   
   /* linkedin button class*/
   .linkedinBtn{
-    color: rgb(3, 105, 207);
+    color: rgb(2, 113, 224);
   }
   
   .linkedinBtn:before{
