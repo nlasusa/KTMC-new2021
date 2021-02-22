@@ -227,6 +227,10 @@ $("#dropdown-diversity").on('click', function(){
 });
 // END OF DROPDOWN DIVERSITY
 
+$("#tabs").on('click', function(){
+  $("#albert-overview").hide(); 
+  $("#experience-preview").show(); 
+});
 
 // IN NEWS AND WHO WE ARE ARROW
 $(".arrows").on('click', function(){

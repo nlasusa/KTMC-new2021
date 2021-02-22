@@ -67,6 +67,11 @@
 
 #tabs:hover {
     cursor: pointer;
+    color:rgb(151, 184, 19)
+}
+
+#experience-preview {
+    display: none; 
 }
 
 /* #related-cases {
