@@ -47,7 +47,15 @@
   @media only screen and (max-width: 2000px) {
     .arrows {
       position: absolute;
-      top: 115%;
+      top: 117%;
+      margin-top: -31px;
+    }
+  }
+
+  @media only screen and (max-width: 1600px) {
+    .arrows {
+      position: absolute;
+      top: 125%;
       margin-top: -31px;
     }
   }
@@ -59,6 +67,15 @@
       margin-top: -31px;
     }
   }
+
+  @media only screen and (max-width: 1200px) {
+    .arrows {
+      position: absolute;
+      top: 160%;
+      margin-top: -31px;
+    }
+  }
+
 
   @media only screen and (max-width: 1000px) {
     .arrows {
