@@ -66,12 +66,12 @@
 }
 
 #tabs {
-    color:rgb(151, 184, 19)
+    color:white;
 }
 
 #tabs:hover {
     cursor: pointer;
-    color:white;
+    color:rgb(151, 184, 19)
 }
 
 #experience-preview {
