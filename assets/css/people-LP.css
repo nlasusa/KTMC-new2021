@@ -65,9 +65,13 @@
     line-height: 30px; 
 }
 
+#tabs {
+    color:rgb(151, 184, 19)
+}
+
 #tabs:hover {
     cursor: pointer;
-    color:rgb(151, 184, 19)
+    color:white;
 }
 
 #experience-preview {
