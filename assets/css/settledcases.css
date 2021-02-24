@@ -34,7 +34,7 @@ a:hover {
    }
   .tbl-content{
     height: 400px;
-    overflow-x:auto;
+    overflow-x: none;
     margin-top: 0px;
   }
   th{
