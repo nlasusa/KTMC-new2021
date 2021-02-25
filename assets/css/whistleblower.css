@@ -42,7 +42,7 @@
     left: 0;
     top: 50%;
     transform: translateY(-50%);
-    background-image: url("../images/practiceareas/globalsecurities.png");
+    background-image: url("../images/practiceareas/USsecurities.png");
     background-position: 80% 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@
   }
   .overlapping-feature h2 {
     font-weight: 350;
-    font-size: 48px;
+    font-size: 41px;
     font-family: "Raleway";
     line-height: 1.1em;
     text-transform: uppercase;
@@ -136,17 +136,17 @@
   }
   
   .associated-cases {
-     /* background-color: rgb(140, 170, 20);  */
-     background-color: white; 
-     color: black;
-     margin-bottom: 500px; 
-     margin-left: 240px; 
-     position: absolute; 
-     padding: 15px; 
-     border: 1px solid black;
-     width: 200px;
-     font-size: 16px; 
-     text-align: center; 
+    /* background-color: rgb(140, 170, 20);  */
+    background-color: white; 
+    color: black;
+    margin-bottom: 500px; 
+    margin-left: 240px; 
+    position: absolute; 
+    padding: 15px; 
+    border: 1px solid black;
+    width: 200px;
+    font-size: 16px; 
+    text-align: center; 
 }
 
   .associated-cases:hover {

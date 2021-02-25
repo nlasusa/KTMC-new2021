@@ -31,6 +31,7 @@ $("#dropdown-community").on('click', function(){
 // END OF IN THE COMMUNITY BUTTON NAVIGATION 
 
 
+
 // INSIGHTS BUTTON NAVIGATION 
 $("#dropdown-insights").on('click', function(){
   window.location = "insights.html";    
@@ -111,6 +112,13 @@ $("#dropdown-globalsecurities").on('click', function(){
   window.location = "globalsecurities.html";    
 });
 // GLOBAL SECURITIES (UNDER PRACTICE AREAS) BUTTON NAVIGATION 
+
+
+// WHISTLEBLOWER REPRESENTATION (UNDER PRACTICE AREAS) BUTTON NAVIGATION 
+$("#dropdown-whistleblower").on('click', function(){
+  window.location = "whistleblower.html";    
+});
+// WHISTLEBLOWER REPRESENTATION (UNDER PRACTICE AREAS) BUTTON NAVIGATION 
 
 
 // CORPORATE GOVERNANCE (UNDER PRACTICE AREAS) BUTTON NAVIGATION 
