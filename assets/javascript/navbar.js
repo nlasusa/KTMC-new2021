@@ -9,6 +9,11 @@ $("#dropdown-testimonials").on('click', function(){
 
 // END OF TESTIMONIALS DROPDOWN NAVIGATION 
 
+// news lp//
+$("#read-more-news-emily").on('click', function(){
+  window.location = "newsLP.html";    
+});
+// end of news lp// 
 
 // HOME BUTTON NAVIGATION 
 $("#dropdown-home").on('click', function(){
