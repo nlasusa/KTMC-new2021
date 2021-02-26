@@ -177,7 +177,7 @@
   .news-LP-ind-title {
     font-size: 35px; 
     position: absolute; 
-    padding-top: 70px; 
+    padding-top: 60px; 
     margin-left: 85px; 
     font-family: 'Playfair Display', serif;
     color: black; 
@@ -195,7 +195,7 @@
   .news-LP-ind-text {
     color: black;
     background-color: white; 
-    padding-top: 40px; 
+    padding-top: 30px; 
     padding-bottom: 50px;
     padding-right: 80px;
     padding-left: 90px; 
@@ -224,7 +224,7 @@
     color: black;
     font-size: 24px; 
     margin-left: 85px; 
-    padding-top: 50px; 
+    padding-top: 55px; 
     padding-bottom: 20px; 
     font-family: 'Playfair Display', serif;
   }
