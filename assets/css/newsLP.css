@@ -1,5 +1,5 @@
   
-  .datasecurity-image { background-image: url("../images/datasecurity.jpg"); height: 300px; background-repeat: no-repeat;}
+ .whiteglobe-sub { background-image: url("../images/whiteglobe.jpg"); height: 300px; background-repeat: no-repeat;}
   /* //////// ****** /////////////////////////// */
   /* // DATA SECURITY // */
     .datasecurity-header {
@@ -177,7 +177,7 @@
   .news-LP-ind-title {
     font-size: 35px; 
     position: absolute; 
-    padding-top: 250px; 
+    padding-top: 70px; 
     margin-left: 85px; 
     font-family: 'Playfair Display', serif;
     color: black; 
@@ -224,7 +224,7 @@
     color: black;
     font-size: 24px; 
     margin-left: 85px; 
-    padding-top: 220px; 
+    padding-top: 50px; 
     padding-bottom: 20px; 
     font-family: 'Playfair Display', serif;
   }
