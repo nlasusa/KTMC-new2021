@@ -39,11 +39,17 @@ html {
   #logo-main {
     margin-top: .4em;
     margin-left: 1em; 
-    width: 315px;
+    width: 325px;
     border-radius: 0; 
     z-index: 4; 
     position: absolute;  
     padding-bottom: 10px; 
+  }
+
+  #ST-logo-main:hover {
+    cursor: pointer; 
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
   }
   #logo-ST {
     margin-top: 1.5em;
@@ -61,7 +67,7 @@ html {
   }
   .navigation{
     padding-bottom:30px;
-    padding-right: 50px; 
+    padding-right: 10px; 
     position:absolute;
     top:0;
     width:100%;

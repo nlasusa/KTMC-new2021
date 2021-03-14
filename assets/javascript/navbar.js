@@ -83,6 +83,11 @@ $("#dropdown-sustainability").on('click', function(){
 });
 // END OF OFFICES BUTTON NAVIGATION 
 
+// ST LOGO NAV BAR NAVIGATION 
+$("#ST-logo-main").on('click', function(){
+  window.location = "https://www.securitiestracker.com/";    
+});
+// END OF ST LOGO NAV BAR NAVIGATION 
 
 // OVERVIEW BUTTON NAVIGATION 
 $("#dropdown-overview").on('click', function(){
