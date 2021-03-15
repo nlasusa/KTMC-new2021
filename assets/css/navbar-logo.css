@@ -7,7 +7,10 @@ html {
   .header-wrapper {
     width: 100%;
     position: relative;
-    margin-top: -7px;  
+    margin-top: -8px;  
+  }
+  .fa-bars {
+   visibility: hidden;
   }
   #header-title {
     position: absolute;
@@ -37,7 +40,7 @@ html {
     z-index: 3; 
   }
   #logo-main {
-    margin-top: .4em;
+    margin-top: .5em;
     margin-left: 1em; 
     width: 325px;
     border-radius: 0; 
@@ -46,25 +49,16 @@ html {
     padding-bottom: 10px; 
   }
 
+  #ST-logo-main {
+    z-index: 3; 
+  }
+
   #ST-logo-main:hover {
     cursor: pointer; 
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
   }
-  #logo-ST {
-    margin-top: 1.5em;
-    margin-left: 31em; 
-    width: 160px;
-    border-radius: 0; 
-    z-index: 4; 
-    position: absolute;  
-    padding-bottom: 10px; 
-  }
-  #logo-ST:hover {
-    -webkit-transform: scale(1.15);
-    transform: scale(1.15);
-  cursor: pointer; 
-  }
+  
   .navigation{
     padding-bottom:30px;
     padding-right: 10px; 
@@ -73,6 +67,20 @@ html {
     width:100%;
     z-index:4;
   }
+
+  .fa-bars {
+    padding-bottom:30px;
+    padding-right: 10px; 
+    margin-left: 92%;
+    position:absolute;
+    top: 4%;
+    font-size: 28px;
+    color: white;
+    width:100%;
+    z-index:4;
+  }
+
+
   .navbar-right{
     float:right;
     word-spacing: 20px; 
@@ -84,6 +92,7 @@ html {
   #practice-areas {
     word-spacing: 3px; 
   }
+
   .navbar-right a{
     text-decoration: none;
     font-size: 15.5px; 
@@ -182,8 +191,9 @@ html {
   }
   @media only screen and (max-width: 1035px) {
     #logo-main {
-      width: 220px; 
+      width: 215px; 
     }
+
   }
   /* // END OF MEDIA QUERY FOR LOGO */
  /* //////// ****** /////////////////////////// */
@@ -257,9 +267,22 @@ html {
       margin-left: 31%;
     }
   }
-  @media only screen and (max-width: 1250px) {
+  @media only screen and (max-width: 1280px) {
     .navigation {
       display: none;
+    }
+
+  .fa-bars {
+    visibility: visible;
+  }
+  .fa-bars:hover {
+    cursor: pointer; 
+  }
+}
+
+  @media only screen and (max-width: 1420px) {
+    #logo-main {
+      width: 220px; 
     }
   }
   /* END OF MEDIA QUERIES  */
