@@ -3,21 +3,15 @@
     width: 35px;
     height: 35px;
     color: rgb(214, 214, 214);
-    position: absolute;
-    top: 142%;
-    margin-top: -31px;
+    position: relative;
+    z-index: 5; 
+    float: right;
   }
-  
-  .prev {
-    border-bottom: 6px solid;
-    margin-left: 50px;
-    border-left: 6px solid;
-    transform: rotate(45deg);
-    left: 10px;
-  }
+ 
   
   .next {
     margin-right: 50px; 
+    margin-top: 285px;
     border-bottom: 6px solid;
     border-left: 6px solid;
     transform: rotate(-135deg);
@@ -27,6 +21,7 @@
   .next2 {
     margin-right: 50px; 
     border-bottom: 6px solid;
+    margin-top: 205px;
     border-left: 6px solid;
     transform: rotate(-135deg);
     right: 10px;
@@ -43,7 +38,7 @@
   .next2 {
       display: none; 
   }
-
+/* 
   @media only screen and (max-width: 2000px) {
     .arrows {
       position: absolute;
@@ -95,4 +90,4 @@
       width: 22px;
       height: 22px;
     }
-  }
+  } */
