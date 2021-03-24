@@ -43,12 +43,12 @@ a:hover {
     font-family: 'Raleway';
     text-align: center; 
     font-size: 15px; 
-    color: rgb(0, 102, 200);
+    color: rgb(4, 113, 223);
 }
 
 #landmark-seemore:hover {
     cursor: pointer; 
-    color: rgb(5, 106, 207);
+    color: rgb(6, 98, 190);
 }
 
 .international-landmark-header {

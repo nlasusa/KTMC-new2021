@@ -110,12 +110,12 @@ p {
 }
 
 #people-name:hover {
-  color: rgb(11, 113, 216);
+  color: rgb(4, 113, 223);
   cursor: pointer; 
 }
 
 .fa-envelope, .fa-phone, .fa-linkedin-in {
-  color: rgb(11, 113, 216);
+  color: rgb(4, 113, 223);
 }
 
 #people-name {
