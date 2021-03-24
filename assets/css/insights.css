@@ -168,7 +168,7 @@
   #row-1:hover, #row-2:hover, #row-3:hover, #row-4:hover, #row-5:hover {
     margin: 0 auto; 
     cursor: pointer; 
-    color: #0178e7;
+    color: rgb(0, 102, 200);
   }
 
   #download {

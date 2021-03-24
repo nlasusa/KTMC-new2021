@@ -110,8 +110,12 @@ p {
 }
 
 #people-name:hover {
-  color: #006dd3;
+  color: rgb(0, 102, 200);
   cursor: pointer; 
+}
+
+.fa-envelope, .fa-phone, .fa-linkedin-in {
+  color: rgb(0, 102, 200);
 }
 
 #people-name {
@@ -202,7 +206,7 @@ p{
 
 .devsite-products-alphabet-link:hover {
   text-decoration: none; 
-  color: #0066c8;
+  color: rgb(0, 102, 200);
   cursor: pointer; 
 }
 /* // end of alphabet people */
