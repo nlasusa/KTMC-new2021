@@ -225,14 +225,14 @@ p{
 #people-read {
   color: black;
   margin-top: 10px;  
-  background-color: rgb(140, 170, 20); 
+  background-color: rgb(151, 184, 19); 
   width: 135px; 
   text-align: center; 
   padding: 10px; 
 }
 
 #people-read:hover {
-  background-color: rgb(123, 150, 18); 
+  background-color: rgb(136, 167, 16); 
   cursor: pointer; 
 }
 
